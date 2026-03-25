@@ -5,13 +5,16 @@ public class ExerciciosBasicosJava {
         // ex:
         // nomeDoExercicio();
     }
+
     public static void variavelValor10(Integer[] args) {
         int numero = 10;
         System.out.println(numero);
     }
+
     public static void nomeDoExercicio(){
         // resolução do exercicio !
     }
+
     /*
     ===== TIPOS DE VARIÁVEIS =====
 
