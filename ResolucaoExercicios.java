@@ -61,41 +61,73 @@ public class ResolucaoExercicios {
 
 
     // EXERCICIO 9
-    public static void trocarValoresDeVariaveis(){
+    public static void trocarValoresDeVariaveis() {
         int a = 20;
         int b = 10;
         int temp = a;
 
         a = b;
         b = temp;
-        System.out.println("EXERCICIO 9: " + a +", " + b);
+        System.out.println("EXERCICIO 9: " + a + ", " + b);
     }
 
     // EXERCICIO 10
-    public static void contanteUsandoFinal(){
+    public static void contanteUsandoFinal() {
         final int primeiroNumero = 15;
         System.out.println("EXERCICIO 10: " + primeiroNumero);
     }
 
 
     // EXERCICIO 11
-    public static void meuNomeCompleto(){
+    public static void meuNomeCompleto() {
         String a = "Helena Cardoso de Lacerda";
         System.out.println("EXERCICIO 11: " + a);
     }
 
 
     // EXERCICIO 12
-    public static void tamanhoString(){
+    public static void tamanhoString() {
         String a = "Meu nome é Helena, sou filha do Evandro.";
         int stringSize = a.length();
         System.out.println("EXERCICIO 12: " + stringSize);
     }
 
 
-    //EXERCICIO 13
-    public static void stringParaMinusculas(){
+    // EXERCICIO 13
+    public static void stringParaMinusculas() {
         String a = "MEU NOME É HELENA";
-
+        String aLowerCase = a.toLowerCase();
+        System.out.println("EXERCICIO 13: " + aLowerCase);
     }
+
+    // EXERCICIO 14
+    public static void stringParaMaiusculas() {
+        String a = "meu nome é helena";
+        String aUpperCase = a.toUpperCase();
+        System.out.println("EXERCICIO 15: " + aUpperCase);
+    }
+
+
+    // EXERCICIO 15
+    public static Boolean stringPalavraEspecifica() {
+        String frase = "Eu gosto de Jack off Jill";
+        String palavra = "gosto";
+
+        Boolean tem = frase.contains(palavra);
+        System.out.println("EXERCICIO 15: " + tem);
+        return tem;
+    }
+
+
+    // EXERCICIO 16
+    public static void stringSubistituirpalavra(){
+        String frase = "Meu nome é Maria";
+        String palavraOriginal = "Maria";
+        String palavraNova = "Helena";
+        String resultado = frase.replace(palavraOriginal, palavraNova);
+        System.out.println("EXERCICIO 16: " + resultado);
+    }
+
+
+
 }

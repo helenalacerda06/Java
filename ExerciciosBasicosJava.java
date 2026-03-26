@@ -20,6 +20,10 @@ public class ExerciciosBasicosJava {
         ResolucaoExercicios.contanteUsandoFinal();
         ResolucaoExercicios.meuNomeCompleto();
         ResolucaoExercicios.tamanhoString();
+        ResolucaoExercicios.stringParaMinusculas();
+        ResolucaoExercicios.stringParaMaiusculas();
+        ResolucaoExercicios.stringPalavraEspecifica();
+        ResolucaoExercicios.stringSubistituirpalavra();
     }
 
     /*
@@ -53,11 +57,11 @@ public class ExerciciosBasicosJava {
 
     13. Converta a String para letras maiúsculas.
 
-    14. Converta a String para letras minúsculas.
+........    14. Converta a String para letras minúsculas.
 
-    15. Verifique se a String contém uma palavra específica.
+........    15. Verifique se a String contém uma palavra específica.
 
-    16. Substitua uma palavra dentro da String.
+........    16. Substitua uma palavra dentro da String.
 
     17. Pegue apenas os 3 primeiros caracteres.
 
