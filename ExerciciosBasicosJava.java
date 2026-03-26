@@ -1,28 +1,31 @@
 public class ExerciciosBasicosJava {
 
+    /**
+     * O programa começa aqui!!
+     */
     public static void main(String[] args) {
         // se quiser testar chame a função / caixinha do exercicio aqui!
         // ex:
         // nomeDoExercicio();
-    }
 
-    public static void variavelValor10(Integer[] args) {
-        int numero = 10;
-        System.out.println(numero);
-    }
-
-    public static void nomeDoExercicio(){
-        // resolução do exercicio !
+        ResolucaoExercicios.variavelValor10();
+        ResolucaoExercicios.variaveldouble();
+        ResolucaoExercicios.variavelnome();
+        ResolucaoExercicios.variavelVerdadeira();
+        ResolucaoExercicios.variavelSoma();
+        ResolucaoExercicios.mutiplicacaodouble();
+        ResolucaoExercicios.intParaDouble();
+        ResolucaoExercicios.stringParaInt();
+        ResolucaoExercicios.trocarValoresDeVariaveis();
+        ResolucaoExercicios.contanteUsandoFinal();
+        ResolucaoExercicios.meuNomeCompleto();
+        ResolucaoExercicios.tamanhoString();
     }
 
     /*
     ===== TIPOS DE VARIÁVEIS =====
 
     1. Crie uma variável inteira e atribua o valor 10.
-
-    public static void variavelValor10()
-    int numero = 10;
-    System.out.println(numero);
 
     2. Crie uma variável double com valor 5.5.
 
