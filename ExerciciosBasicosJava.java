@@ -24,6 +24,11 @@ public class ExerciciosBasicosJava {
         ResolucaoExercicios.stringParaMaiusculas();
         ResolucaoExercicios.stringPalavraEspecifica();
         ResolucaoExercicios.stringSubistituirpalavra();
+        ResolucaoExercicios.stingtresPrimeiros();
+        ResolucaoExercicios.stingComparacao();
+        ResolucaoExercicios.stingRemoverEspacos();
+        ResolucaoExercicios.juntarDuasStrings();
+        ResolucaoExercicios.positivoNegativo();
     }
 
     /*
@@ -63,13 +68,13 @@ public class ExerciciosBasicosJava {
 
 ........    16. Substitua uma palavra dentro da String.
 
-    17. Pegue apenas os 3 primeiros caracteres.
+........    17. Pegue apenas os 3 primeiros caracteres.
 
-    18. Compare duas Strings.
+........    18. Compare duas Strings.
 
-    19. Remova espaços no início e fim.
+.........   19. Remova espaços no início e fim.
 
-    20. Junte duas Strings.
+.........    20. Junte duas Strings.
 
     ===== CONDICIONAIS =====
 

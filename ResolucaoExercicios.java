@@ -130,4 +130,51 @@ public class ResolucaoExercicios {
 
 
 
+    // EXERCICIO 17
+    public static void stingtresPrimeiros(){
+        String a = "1234567";
+        String tresPrimeiros = a.substring(0, 3);
+        System.out.println("EXERCICIO 17: " + tresPrimeiros);
+    }
+
+
+    // EXERCICIO 18
+    public static void stingComparacao(){
+        String a = "Eu gosto de chocolate";
+        String b = "Ela gosta de frutas";
+        if (a.equals(b)){
+            System.out.println("As frase são iguais:)");
+        } else {
+            System.out.println("EXERCICIO 18: " + "As frases não são iguais:(");
+        }
+    }
+
+
+    //EXERCICIO 19
+    public static void stingRemoverEspacos(){
+        String a = "                    :)                        ";
+        String semEspaco = a.trim();
+        System.out.println("EXERCICIO 19: " + semEspaco);
+    }
+
+
+    //EXERCICIO 20
+    public static void juntarDuasStrings(){
+        String a = "Eu estudo no Acesso.";
+        String b = "Lá o lanche é caro!";
+        String c = a + " " + b;
+        System.out.println("EXERCICIO 20: " + c);
+    }
+
+
+    //EXERCICIO 21
+    public static void positivoNegativo(){
+        int a = -42;
+        if ( a > 0){
+            System.out.println("Número positivo:)");
+        } else if {a < 0){
+            System.out.println("Número negativo:(");
+        }
+        }
+    }
 }
