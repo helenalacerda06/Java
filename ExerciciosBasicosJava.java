@@ -29,6 +29,15 @@ public class ExerciciosBasicosJava {
         ResolucaoExercicios.stingRemoverEspacos();
         ResolucaoExercicios.juntarDuasStrings();
         ResolucaoExercicios.positivoNegativo();
+        ResolucaoExercicios.parImpar();
+        ResolucaoExercicios.aprovadoReprovado();
+        ResolucaoExercicios.idadeMaiorOuMenor();
+        ResolucaoExercicios.compareNumerosMostrarMaior();
+        ResolucaoExercicios.imprimirLoop();
+        ResolucaoExercicios.imprimirLoopMaior();
+        ResolucaoExercicios.somarNumerosUmACem();
+        ResolucaoExercicios.loopPares();
+        ResolucaoExercicios.loopSenha();
     }
 
     /*
@@ -78,24 +87,24 @@ public class ExerciciosBasicosJava {
 
     ===== CONDICIONAIS =====
 
-    21. Verifique se um número é positivo ou negativo.
+.........    21. Verifique se um número é positivo ou negativo.
 
-    22. Verifique se um número é par ou ímpar.
+.........    22. Verifique se um número é par ou ímpar.
 
-    23. Crie um sistema de nota (Aprovado/Reprovado).
+..........    23. Crie um sistema de nota (Aprovado/Reprovado).
 
-    24. Verifique se uma pessoa é maior de idade.
+...........    24. Verifique se uma pessoa é maior de idade.
 
-    25. Compare dois números e mostre o maior.
+........    25. Compare dois números e mostre o maior.
 
 
     ===== LOOPS =====
 
-    26. Faça um loop que imprima de 1 a 10.
+.......    26. Faça um loop que imprima de 1 a 10.
 
-    27. Faça um loop que imprima de 10 a 1.
+.......    27. Faça um loop que imprima de 10 a 1.
 
-    28. Some os números de 1 a 100.
+......    28. Some os números de 1 a 100.
 
     29. Mostre apenas números pares de 1 a 20.
 
