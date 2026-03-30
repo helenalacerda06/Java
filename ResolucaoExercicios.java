@@ -35,7 +35,8 @@ public class ResolucaoExercicios {
     public static void variavelSoma() {
         int primeroNumero = 2;
         int segundoNumero = 0;
-        System.out.println("EXERCICIO 5: " + primeroNumero + segundoNumero);
+        int resultado = primeroNumero + segundoNumero;
+        System.out.println("EXERCICIO 5: " + resultado);
     }
 
     // EXERCICIO 6
@@ -106,7 +107,7 @@ public class ResolucaoExercicios {
     public static void stringParaMaiusculas() {
         String a = "meu nome é helena";
         String aUpperCase = a.toUpperCase();
-        System.out.println("EXERCICIO 15: " + aUpperCase);
+        System.out.println("EXERCICIO 14: " + aUpperCase);
     }
 
 
@@ -172,7 +173,7 @@ public class ResolucaoExercicios {
     public static void positivoNegativo() {
         int a = -42;
 
-        if (a > 0) {
+        if (a >= -0) {
             System.out.println("Número positivo :)");
         } else if (a < 0) {
             System.out.println("EXERCICIO 21: " + "Número negativo :(");
@@ -302,7 +303,7 @@ public class ResolucaoExercicios {
             System.out.println("Digite a senha.");
             digitada = a.nextLine();
 
-            if (digitada.equals(digitada)){
+            if (digitada.equals(correta)){
                 System.out.println("Senha incorreta, tente novamente!");
             }
         }
@@ -311,4 +312,33 @@ public class ResolucaoExercicios {
 
     }
 
+
+    //FrizzBuzz
+    public static void frizzBuzz(){
+        for (int a = 1; a <= 50; a++){
+            if (a % 3 == 0 && a % 5 == 0){
+                System.out.println("FizzBuzz");
+            } else if (a % 3 == 0){
+                System.out.println("Frizz");
+            } else if (a % 5 == 0){
+                System.out.println("Buzz");
+            } else {
+                System.out.println( a);
+            }
+        }
+    }
+
+
+
+
+    public static void primos(int a){
+        if (a <= 1){
+            return false;
+        } for (int b = 2; b < a; b++){
+            if (b % a == 0){
+                return false;
+            }
+        }
+        return true;
+    }
 }

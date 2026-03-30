@@ -38,6 +38,8 @@ public class ExerciciosBasicosJava {
         ResolucaoExercicios.somarNumerosUmACem();
         ResolucaoExercicios.loopPares();
         ResolucaoExercicios.loopSenha();
+        ResolucaoExercicios.frizzBuzz();
+        ResolucaoExercicios.primos(int a);
     }
 
     /*
