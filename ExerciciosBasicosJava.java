@@ -39,7 +39,8 @@ public class ExerciciosBasicosJava {
         ResolucaoExercicios.loopPares();
         ResolucaoExercicios.loopSenha();
         ResolucaoExercicios.frizzBuzz();
-        ResolucaoExercicios.primos(int a);
+        ResolucaoExercicios.olhaoReverse();
+        ResolucaoExercicios.nomeIdade();
     }
 
     /*
