@@ -251,29 +251,29 @@ public class ResolucaoExercicios {
 
 
     //EXERCICIO 26
-    public static void imprimirLoop(){
+    public static void imprimirLoop() {
         System.out.println("EXERCICIO 26: ");
-        for (int a = 1; a < 6; a++){
+        for (int a = 1; a < 6; a++) {
             System.out.println(a);
         }
     }
 
 
     //EXERCICIO 27
-    public static void imprimirLoopMaior(){
+    public static void imprimirLoopMaior() {
         System.out.println("EXERCICIO 27: ");
-        for (int a =10; a > 0; a--){
+        for (int a = 10; a > 0; a--) {
             System.out.println(a);
         }
     }
 
 
     //EXERCICIO 28
-    public static void somarNumerosUmACem(){
+    public static void somarNumerosUmACem() {
         System.out.println("EXERCICIO 28: ");
 
         int soma = 0;
-        for (int a = 0; a < 101; a++){
+        for (int a = 0; a < 101; a++) {
             soma += a;
             System.out.print(a);
         }
@@ -282,17 +282,17 @@ public class ResolucaoExercicios {
 
 
     //EXERCICIO 29
-    public static void loopPares(){
+    public static void loopPares() {
         System.out.println("EXERCICIO 29");
 
-        for (int a = 0; a <= 20; a = a + 2){
+        for (int a = 0; a <= 20; a = a + 2) {
             System.out.println(a);
         }
     }
 
 
     //EXERCICIO 30
-    public static void loopSenha(){
+    public static void loopSenha() {
         System.out.println("EXERCICIO 30: ");
 
         Scanner a = new Scanner(System.in);
@@ -303,7 +303,7 @@ public class ResolucaoExercicios {
             System.out.println("Digite a senha.");
             digitada = a.nextLine();
 
-            if (digitada.equals(correta)){
+            if (!digitada.equals(correta)) {
                 System.out.println("Senha incorreta, tente novamente!");
             }
         }
@@ -314,31 +314,45 @@ public class ResolucaoExercicios {
 
 
     //FrizzBuzz
-    public static void frizzBuzz(){
-        for (int a = 1; a <= 50; a++){
-            if (a % 3 == 0 && a % 5 == 0){
+    public static void frizzBuzz() {
+        for (int a = 1; a <= 50; ++a) {
+            if (a % 3 == 0 && a % 5 == 0) {
                 System.out.println("FizzBuzz");
-            } else if (a % 3 == 0){
+            } else if (a % 3 == 0) {
                 System.out.println("Frizz");
-            } else if (a % 5 == 0){
+            } else if (a % 5 == 0) {
                 System.out.println("Buzz");
             } else {
-                System.out.println( a);
+                System.out.println(a);
             }
         }
     }
 
-
-
-
-    public static void primos(int a){
-        if (a <= 1){
+    public static Boolean isNumeroPrimo(Integer numero) {
+        if (numero <= 1) {
             return false;
-        } for (int b = 2; b < a; b++){
-            if (b % a == 0){
-                return false;
-            }
         }
-        return true;
+
+        Integer divisao = numero % 2;
+        if (divisao == 0) {
+            return Boolean.TRUE;
+        } else {
+            return Boolean.FALSE;
+        }
     }
+
+    public static String olhaoReverse(){
+        String a = "Helena";
+        String b = "";
+        {
+            for (int c = a.length() - 1; c >= 0; c--) {
+                b = b + a.charAt(c);
+            }
+            System.out.println(b);
+
+    }
+        return a;
+    }
+
+
 }
