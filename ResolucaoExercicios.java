@@ -330,15 +330,16 @@ public class ResolucaoExercicios {
 
 
 
-
-    public static void primos(int a){
-        if (a <= 1){
-            return false;
-        } for (int b = 2; b < a; b++){
-            if (b % a == 0){
-                return false;
-            }
+        public static String olhaoReverse(){
+           String a = "Helena";
+            String b = "";
+    {
+        for (int c = a.length() - 1; c >= 0; c--) {
+            b = b + a.charAt(c);
         }
-        return true;
+        System.out.println(b);
+
     }
+    return a;
+}
 }
