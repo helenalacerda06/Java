@@ -40,6 +40,8 @@ public class ExerciciosBasicosJava {
         ResolucaoExercicios.loopSenha();
         ResolucaoExercicios.frizzBuzz();
         ResolucaoExercicios.olhaoReverse();
+        ResolucaoExercicios.Flot();
+        ResolucaoExercicios.nomeIdade();
     }
 
     /*

@@ -342,4 +342,26 @@ public class ResolucaoExercicios {
     }
     return a;
 }
+
+        public static void Flot (){
+            float idade = 16;
+            float pi = 3.14f;
+     System.out.println("Eu tenho " + idade + " anos");
+     System.out.println("o numero pi é " + pi);
+ }
+
+
+
+        public static void nomeIdade(){
+            Scanner a = new Scanner(System.in);
+            String nome ;
+            String idade ;
+            System.out.println("Qual o seu nome?");
+            nome = a.nextLine();
+
+            System.out.println("Quantos anos você tem?");
+            idade = a.nextLine();
+
+            System.out.println("Você se chama " + idade + "e tem " + nome + "anos.");
+        }
 }
