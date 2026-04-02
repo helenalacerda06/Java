@@ -42,6 +42,7 @@ public class ExerciciosBasicosJava {
         ResolucaoExercicios.olhaoReverse();
         ResolucaoExercicios.Flot();
         ResolucaoExercicios.nomeIdade();
+
     }
 
     /*
