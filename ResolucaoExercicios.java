@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ResolucaoExercicios {
 
     // EXERCICIO 1
@@ -308,7 +307,7 @@ public class ResolucaoExercicios {
             }
         }
         System.out.println("Acesso liberado!");
-        a.close();
+//        a.close();
 
     }
 
@@ -351,19 +350,16 @@ public class ResolucaoExercicios {
  }
 
 
-
         public static void nomeIdade(){
+
             Scanner a = new Scanner(System.in);
-                String nome ;
-                int idade ;
 
             System.out.println("Qual o seu nome?");
-            nome = a.nextLine();
+            String nome = a.nextLine();
 
             System.out.println("Quantos anos você tem?");
-            idade = a.nextInt();
+            int idade = Integer.parseInt(a.nextLine());
 
-            System.out.println("Você se chama " + idade + " e tem " + nome + " anos.");
-            a.close();
+            System.out.println("Você se chama " + nome + " e tem " + idade + " anos.");
         }
 }
