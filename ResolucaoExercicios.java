@@ -354,14 +354,16 @@ public class ResolucaoExercicios {
 
         public static void nomeIdade(){
             Scanner a = new Scanner(System.in);
-            String nome ;
-            String idade ;
+                String nome ;
+                int idade ;
+
             System.out.println("Qual o seu nome?");
             nome = a.nextLine();
 
             System.out.println("Quantos anos você tem?");
-            idade = a.nextLine();
+            idade = a.nextInt();
 
-            System.out.println("Você se chama " + idade + "e tem " + nome + "anos.");
+            System.out.println("Você se chama " + idade + " e tem " + nome + " anos.");
+            a.close();
         }
 }
